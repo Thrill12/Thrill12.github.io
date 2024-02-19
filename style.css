@@ -1,0 +1,68 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    display: flex;
+}
+a:link{
+    text-decoration: none;
+    color:black;
+}
+a:visited{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration: none;
+    color:black;
+}
+a:active{
+    text-decoration: none;
+    color:black;
+}
+.headerButton{
+    margin: 0 10px;
+    padding: 10px;
+    border: none;
+    background-color: #f5f6fa;
+    color:#2f3640;
+    cursor: pointer;
+    transition: 0.3s;
+    font-style: normal;
+    text-decoration: none;
+    flex-basis: 0%;
+}
+.headerButton:hover{
+    background-color: #2f3640;
+    color:#f5f6fa;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+.gameImage{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    padding: 10px 10px 10px 10px;
+}
+.gameImage:hover{
+    transform: scale(1.1);
+    border: solid 1px #e84118;
+}
